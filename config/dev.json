@@ -1,0 +1,47 @@
+{
+    "AppConf" : {
+        "ID" : 11001,
+        "Group" : "Login"
+    },
+    "HttpConf" : {
+        "Flag" : 1,
+        "Type" : "http",
+        "Host" : "0.0.0.0",
+        "Port" : 11001
+    },
+    "HttpsConf" : {
+        "Flag" : 1,
+        "Type" : "https",
+        "Host" : "0.0.0.0",
+        "Port" : 11002
+    },
+    "WSConf" : {
+        "Flag" : 0,
+        "Type" : "ws",
+        "Host" : "0.0.0.0",
+        "Port" : 11003
+    },
+    "TCPConf" : {
+        "Flag" : 0,
+        "Type" : "tcp",
+        "Host" : "0.0.0.0",
+        "Port" : 0,
+        "Max" : 0
+    },
+    "RedisConfRemote" : {
+        "Flag" : 1,
+        "Type" : "tcp",
+        "Host" : "0.0.0.0",
+        "Port" : 10501,
+        "Database" : 0,
+        "Password" : ""
+    },
+    "RedisConfLocal" : {
+        "Flag" : 1,
+        "Type" : "tcp",
+        "Host" : "0.0.0.0",
+        "Port" : 10501,
+        "Database" : 2,
+        "Password" : ""
+    }
+}
